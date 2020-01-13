@@ -1,6 +1,23 @@
 # mac-setup
 A repo to install all the tools I use on a mac regularly
 
+1. Install Brew 
+
+``` bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+1. Add my phone apple account to icloud
+1. Enable keychain
+
+## Mac settings
+
+1. Invert the scroll direction.
+
+``` bash
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+```
+
 ## Tools
 
 1. git
