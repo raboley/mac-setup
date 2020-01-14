@@ -43,7 +43,7 @@ go get github.com/golang/lint/golint
 brew install python
 pip install --user pipenv
 # since this is a user install add the pipenv to path
-export PATH="$(python -m site --user-base)/bin:$PATH
+export PATH="$(python -m site --user-base)/bin:$PATH"
 echo 'export PATH="$(python -m site --user-base)/bin:$PATH' >> ~/.profile
 
 # sometimes I like virtualenv more or need it
@@ -58,3 +58,11 @@ brew cask install docker
 brew cask install slack
 brew cask install goland
 brew cask install pycharm
+
+# maybe won't need soon
+brew cask install powershell
+
+## vim configuration
+# install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cp .vimrc ~/.vimrc

@@ -36,7 +36,7 @@ git config --global user.name "Russell Boley"
 1. python
 1. pipenv
 1. npm
-
+1. powershell (if I must)
 
 # Docker desktop adds these
 1. kubectl
