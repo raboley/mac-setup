@@ -5,8 +5,21 @@
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.profile
 
-# update scroll direction
+# Mac Preferences
+
+## update scroll direction
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+## add volume to the menu bar
+defaults write com.apple.systemuiserver menuExtras -array \
+"/System/Library/CoreServices/Menu Extras/Clock.menu" \
+"/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+killall SystemUIServer
+
+## Disable annoying terminal sounds (restart terminal after doing this)
+echo 'set bell-style off' > ~/.inputrc
+. ~/.inputrc
 
 #### Cli Tools
 
@@ -56,6 +69,14 @@ brew install node
 brew cask install visual-studio-code
 brew cask install docker
 brew cask install slack
+
+## Jetbrains installs
+# For these it is important to use the correct jetbrains account to sync settings
+# once it starts up the first time and editor opens hit the little cloud in the bottom right
+# then choose sync plugins. It will ask to restart the ide, do it.
+# then to get the themes and stuff to work correctly you need to completely close out of the ide and choose
+# material theme settings then everything should be setup correctly for that jetbrains account
+
 brew cask install goland
 brew cask install pycharm
 
