@@ -1,5 +1,5 @@
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # adding brew location to path in and profile script
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
