@@ -48,11 +48,15 @@ git config --global user.name "Russell Boley"
 
 ## mac programs
 
+### Developer tools
+
 1. vscode
 1. docker for mac
-1. slack
 1. goland
 1. pycharm
+
+### productivity
+
+1. slack
 1. chrome
 1. firefox
-
