@@ -1,5 +1,9 @@
 # mac-setup
-A repo to install all the tools I use on a mac regularly
+A repo to install all the tools I use on a mac regularly.
+
+The way I do this is to pick things from the setup.sh script and run the commands manually. I don't have a consistent enough set of needs to do a one go install of it, but if you just wanted everything you could run the setup.sh script.
+
+To run parts I just copy the set of commands and paste them into terminal to get them to install. They all require brew so make sure to always run brew install first if you are doing piece meal installs.
 
 1. Install Brew 
 
@@ -10,7 +14,7 @@ A repo to install all the tools I use on a mac regularly
 
 ## Mac settings
 
-1. Invert the scroll direction.
+1. Invert the scroll direction, I like the opposite scroll direction to default.
 
 ``` bash
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false

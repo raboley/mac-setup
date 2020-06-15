@@ -21,6 +21,9 @@ killall SystemUIServer
 echo 'set bell-style off' > ~/.inputrc
 . ~/.inputrc
 
+# Show hidden files in finder
+defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
+
 #### Cli Tools
 
 # git installed with brew
@@ -69,6 +72,7 @@ brew install node
 brew cask install visual-studio-code
 brew cask install docker
 brew cask install slack
+brew cask instlal spotify
 
 ## Jetbrains installs
 # For these it is important to use the correct jetbrains account to sync settings
