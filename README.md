@@ -41,6 +41,7 @@ git config --global user.name "Russell Boley"
 1. pipenv
 1. npm
 1. powershell (if I must)
+1. azure cli
 
 # Docker desktop adds these
 1. kubectl
@@ -48,7 +49,7 @@ git config --global user.name "Russell Boley"
 
 ## mac programs
 
-### Developer tools
+### Developer applications
 
 1. vscode
 1. docker for mac

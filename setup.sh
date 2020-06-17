@@ -24,6 +24,9 @@ echo 'set bell-style off' > ~/.inputrc
 # Show hidden files in finder
 defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
 
+#### Cloud cli tools
+brew install azure-cli
+
 #### Cli Tools
 
 # git installed with brew
