@@ -12,7 +12,7 @@ To run parts I just copy the set of commands and paste them into terminal to get
 ```
 
 
-## Mac settings
+## Mac Settings
 
 1. Invert the scroll direction, I like the opposite scroll direction to default.
 
@@ -47,17 +47,29 @@ git config --global user.name "Russell Boley"
 1. kubectl
 1. minikube
 
-## mac programs
+## Mac Programs
 
-### Developer applications
+### Developer Applications
 
 1. vscode
 1. docker for mac
 1. goland
 1. pycharm
 
-### productivity
+### Productivity
 
 1. slack
 1. chrome
 1. firefox
+
+# Specific Application Config
+
+## Jetbrains Development
+
+### Create a Command Line launcher script to fix env vars bug
+
+when using jetbrains products on macs sometimes it doesn't pick up the env vars. to fix that you can add
+a command line launcher to launch goland via the command line.
+
+press shift twice (shift + shift)
+type in create command line launcher
