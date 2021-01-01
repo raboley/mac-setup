@@ -22,11 +22,11 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 1. Add my phone apple account to icloud
 1. Enable keychain
-1. Create ssh key `ssh-keygen -t rsa -b 4096 -C "russell.boley@slalom.com"`
+1. Create ssh key `ssh-keygen -t rsa -b 4096 -C "raboley@gmail.com"`
 1. add git username and email
 
 ```bash
-git config --global user.email "russell.boley@slalom.com"
+git config --global user.email "raboley@gmail.com"
 git config --global user.name "Russell Boley"
 ```
 
