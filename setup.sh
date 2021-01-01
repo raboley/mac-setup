@@ -1,9 +1,12 @@
 # install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # adding brew location to path in and profile script
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.profile
+export PATH="/opt/homebrew/bin:$PATH"
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 
 # Mac Preferences
 
@@ -86,7 +89,7 @@ brew cask instlal spotify
 
 brew cask install goland
 brew cask install pycharm
-
+brew cask intsall rider
 # maybe won't need soon
 brew cask install powershell
 
