@@ -1,3 +1,7 @@
+# install xcode
+xcode-select --install
+sudo xcode-select --switch /Library/Developer/CommandLineTools
+
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
