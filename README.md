@@ -70,17 +70,18 @@ git config --global user.name "Russell Boley"
 
 **Refactoring**
 
-⌥ + r = Refactor/Rename
-
+```
+⌥ + r = Rename
 ⌥ + s = Change Signature
+```
 
 **Git/GitHub**
 
+```
 ⌥ + b = New Branch
-
 ⌥ + p = Push to Remote
-
 ⌥ + p = New Pull Request 
+```
 
 ### Create a Command Line launcher script to fix env vars bug
 
