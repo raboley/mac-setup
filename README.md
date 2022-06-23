@@ -66,6 +66,14 @@ git config --global user.name "Russell Boley"
 
 ## Jetbrains Development
 
+### Custom Keyboard Shortcuts
+
+**Git/GitHub**
+
+⌥ + b = New Branch
+⌥ + p = Push to Remote
+⌥ + p = New Pull Request 
+
 ### Create a Command Line launcher script to fix env vars bug
 
 when using jetbrains products on macs sometimes it doesn't pick up the env vars. to fix that you can add
