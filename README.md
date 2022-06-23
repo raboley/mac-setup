@@ -68,6 +68,11 @@ git config --global user.name "Russell Boley"
 
 ### Custom Keyboard Shortcuts
 
+**Refactoring**
+
+⌥ + r = Refactor/Rename
+⌥ + s = Change Signature
+
 **Git/GitHub**
 
 ⌥ + b = New Branch
