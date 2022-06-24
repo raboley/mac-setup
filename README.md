@@ -68,6 +68,8 @@ git config --global user.name "Russell Boley"
 
 ### Custom Keyboard Shortcuts
 
+⌥ + c = Copy Path - GitHub Repository URL (use when on master/main for best documentation links)
+
 **Refactoring**
 
 ```
