@@ -66,6 +66,30 @@ git config --global user.name "Russell Boley"
 
 ## Jetbrains Development
 
+### Custom Keyboard Shortcuts
+
+**General**
+
+```
+⌥ + c = Copy Path - GitHub Repository URL (use when on master/main for best documentation links)
+⌥ + f = select file in project view
+```
+
+**Refactoring**
+
+```
+⌥ + r = Rename
+⌥ + s = Change Signature
+```
+
+**Git/GitHub**
+
+```
+⌥ + b = New Branch
+⌥ + p = Push to Remote
+⌥ + p = New Pull Request 
+```
+
 ### Create a Command Line launcher script to fix env vars bug
 
 when using jetbrains products on macs sometimes it doesn't pick up the env vars. to fix that you can add
